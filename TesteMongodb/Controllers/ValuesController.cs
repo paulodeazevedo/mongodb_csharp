@@ -13,7 +13,7 @@ namespace TesteMongodb.Controllers
         public ValuesController()
         {
             string connectionString = @"mongodb://" + //Default
-                                        "bduser:Bdmongo#159@" + //usuario e senha
+                                        ":" + //usuario e senha
                                         "cluster0-shard-00-00-6ce27.mongodb.net:27017," + //host1
                                         "cluster0-shard-00-01-6ce27.mongodb.net:27017," + //host2
                                         "cluster0-shard-00-02-6ce27.mongodb.net:27017" + //host3
